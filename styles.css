@@ -31,6 +31,24 @@ body {
     font-size: 14px;
 }
 
+/* Pastel colors */
+.red {
+    background-color: #FFAAAA; /* Pastel Red */
+}
+
+.blue {
+    background-color: #A8D8FF; /* Pastel Blue */
+}
+
+.beige {
+    background-color: #F1E1C6; /* Pastel Beige */
+}
+
+.black {
+    background-color: #333333; /* Darker Pastel Black */
+    color: white; /* White X for visibility */
+}
+
 button {
     font-size: 24px;
     cursor: pointer;
@@ -45,3 +63,4 @@ button {
 button:hover {
     background-color: #45a049;
 }
+
