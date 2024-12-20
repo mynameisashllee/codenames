@@ -35,10 +35,10 @@ function createGrid() {
     gridElement.innerHTML = '';
     gridContent.forEach(color => {
         const tile = document.createElement('div');
-        tile.style.backgroundColor = color;
+        // Apply the corresponding color class
+        tile.classList.add(color);
         if (color === 'black') {
             tile.innerHTML = 'X'; // Add X to the black tile
-            tile.style.color = 'white'; // White X for visibility
         }
         tiles.push(tile);
         gridElement.appendChild(tile);
